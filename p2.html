@@ -2,28 +2,39 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="public/style.css">
     <title>Pontos Turísticos do Paraná</title>
+    <link rel="stylesheet" href="public/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Pontos Turísticos do Paraná</h1>
+    <div id="header">
+        <h1>Pontos Turísticos do Paraná</h1>
+    </div>
 
-    <h2>1. Cataratas do Iguaçu</h2>
-    <img src="public/cataratas.jpg" 
-         alt="Cataratas do Iguaçu" width="400">
-    <p>As Cataratas do Iguaçu são uma das 7 maravilhas naturais do mundo, localizadas em Foz do Iguaçu, na fronteira com a Argentina.</p>
+    <div id="content">
+        <div class="card">
+            <h2>Cataratas do Iguaçu</h2>
+            <img src="public/cataratas.jpg" alt="Cataratas do Iguaçu">
+            <p>As Cataratas do Iguaçu são uma das 7 maravilhas naturais do mundo, localizadas em Foz do Iguaçu, na fronteira com a Argentina.</p>
+        </div>
 
-    <h2>2. Jardim Botânico de Curitiba</h2>
-    <img src="public/jdbotanico.jpg" 
-         alt="Jardim Botânico de Curitiba" width="400">
-    <p>Um dos cartões-postais de Curitiba, o Jardim Botânico é famoso por sua estufa de vidro em estilo art nouveau.</p>
+        <div class="card">
+            <h2>Jardim Botânico de Curitiba</h2>
+            <img src="public/jdbotanico.jpg" alt="Jardim Botânico de Curitiba">
+            <p>Um dos cartões-postais de Curitiba, o Jardim Botânico é famoso por sua estufa de vidro em estilo art nouveau.</p>
+        </div>
 
-    <h2>3. Ópera de Arame</h2>
-    <img src="public/opera.jpg" 
-         alt="Ópera de Arame" width="400">
-    <p>Construída em estrutura metálica e coberta por vidro transparente, a Ópera de Arame é um dos teatros mais bonitos do Brasil.</p>
+        <div class="card">
+            <h2>Ópera de Arame</h2>
+            <img src="public/opera.jpg" alt="Ópera de Arame">
+            <p>Construída em estrutura metálica e coberta por vidro transparente, a Ópera de Arame é um dos teatros mais bonitos do Brasil.</p>
+        </div>
 
-    <br>
-    <button onclick="window.location.href='p1.html'">Voltar para a Página Principal</button>
+        <button class="btn" onclick="window.location.href='p1.html'">Voltar para a Página Principal</button>
+    </div>
+
+    <div id="footer">
+        <p>Eduardo Meyer - 2025</p>
+    </div>
 </body>
 </html>
